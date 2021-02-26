@@ -1,10 +1,4 @@
-const {
-  Add,
-  Multiply,
-  OddOrEven,
-  ArrayGenerator,
-  Fibonacci,
-} = require('../src');
+const { Add, Multiply, OddOrEven, ArrayGenerator } = require('../src');
 
 describe('Assignment Test', () => {
   it('should return the sum of two numbers', () => {
