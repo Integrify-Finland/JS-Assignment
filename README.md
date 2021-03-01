@@ -4,7 +4,7 @@ These exercises were designed to help learning basic skills in javascript
 
 ## Prerequisites
 
-Setup Github. Your code will go into the **index.js** file
+Setup Github. Your code will go into the **src/index.js** file
 
 ## Instructions
 
