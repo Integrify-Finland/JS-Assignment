@@ -2,9 +2,9 @@
   "name": "js-assignment",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "author": "Duy Nguyen <nguyenduy010798@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "test": "jest"
   },
