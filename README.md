@@ -8,7 +8,12 @@ Setup Github. Your code will go into the **index.js** file
 
 ## Instructions
 
-[Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repository to your Github account. Then clone the fork to your machine, make commits and push to your fork. Then open pull requests to the original repository
+[Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) this repository to your Github account. Then clone the fork to your machine, make commits and push to your fork. Then open pull requests to the original repository.
+
+Optionally, you can also run test against your code:
+
+1. Install dependencies: `yarn`
+2. Run test: `yarn run test`
 
 **Resources**:
 
