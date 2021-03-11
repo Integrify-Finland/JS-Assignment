@@ -92,3 +92,6 @@ const doubleArray = ([...x]) => {
   };
   return doubledArray;
 };
+
+// 8. FINDSTUDENTNAME
+const findStudentName = (studentList, name) => studentList.filter(student => student.name === name);
