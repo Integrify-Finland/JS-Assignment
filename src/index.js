@@ -55,3 +55,6 @@ exports.findStudentName = function findStudentName() {};
 
 // 1. ADD 
 const add = (x, y) => x + y;
+
+// 2. MULTIPLY 
+const multiply = (x, y) => x * y;
