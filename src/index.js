@@ -36,7 +36,9 @@ exports.hoisting = function hoisting() {
 
 // 6. Write a function that accepts unlimited amount of numbers as input
 // and return the smallest value
-exports.minValue = function minValue() {};
+exports.minValue = function minValue(...numbers) {
+  return Math.min(...numbers);
+  };
 
 // 7. Write a function that accepts an array of numbers as input
 // and return a new array with all numbers doubled
