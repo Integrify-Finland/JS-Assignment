@@ -42,7 +42,7 @@ exports.minValue = function minValue(...numbers) {
 // 7. Write a function that accepts an array of numbers as input
 // and return a new array with all numbers doubled
 // Ex: [1,2,3] => [2,4,6]
-exports.doubleArray = function doubleArray(...x) {
+exports.doubleArray = function doubleArray([...x]) {
   let doubledArray = [];
   for(i = 0; i < x.length; i++) {
     doubledArray.push(x[i] * 2); 
@@ -83,7 +83,7 @@ const hoisting = () => y = 2;
 const minValue = (...numbers) => Math.min(...numbers);
 
 // 7. DOUBLEARRAY
-const doubleArray = (...x) => {
+const doubleArray = ([...x]) => {
   let doubledArray = [];
   for(i = 0; i < x.length; i++) {
     doubledArray.push(x[i] * 2); 
