@@ -30,8 +30,8 @@ exports.arrayGenerator = function arrayGenerator() {
 
 // 5. Fix this function. We want to see 2 in the console instead of undefined
 exports.hoisting = function hoisting() {
-  console.log(y); // undefined
   let y = 2;
+  return (y);
 };
 
 // 6. Write a function that accepts unlimited amount of numbers as input
