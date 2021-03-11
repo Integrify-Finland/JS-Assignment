@@ -9,7 +9,13 @@ exports.multiply = function multiply(x, y) {
 };
 
 // 3. OddOrEven function code goes here
-exports.oddOrEven = function oddOrEven() {};
+exports.oddOrEven = function oddOrEven(x) {
+  if(x % 2 == 0) {
+    return ('even')
+  } else {
+    return ('odd')
+  }
+};
 
 // 4. Write a function that returns an array that includes number 1 to 100
 // Ex: [1,2,3,4, ..., 99, 100]
