@@ -61,3 +61,6 @@ const multiply = (x, y) => x * y;
 
 // 3. ODDOREVEN 
 const oddOrEven = (x) => (x % 2 == 0) ? 'even' : 'odd';
+
+// 5. HOISTING 
+const hoisting = () => y = 2;
