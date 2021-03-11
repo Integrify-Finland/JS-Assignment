@@ -81,3 +81,12 @@ const hoisting = () => y = 2;
 
 // 6. MINVALUE 
 const minValue = (...numbers) => Math.min(...numbers);
+
+// 7. DOUBLEARRAY
+const doubleArray = (...x) => {
+  let doubledArray = [];
+  for(i = 0; i < x.length; i++) {
+    doubledArray.push(x[i] * 2); 
+  };
+  return doubledArray;
+};
