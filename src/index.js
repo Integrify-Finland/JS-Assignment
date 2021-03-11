@@ -58,3 +58,6 @@ const add = (x, y) => x + y;
 
 // 2. MULTIPLY 
 const multiply = (x, y) => x * y;
+
+// 3. ODDOREVEN 
+const oddOrEven = (x) => (x % 2 == 0) ? 'even' : 'odd';
