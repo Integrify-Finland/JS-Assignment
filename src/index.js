@@ -52,3 +52,6 @@ exports.doubleArray = function doubleArray() {};
 exports.findStudentName = function findStudentName() {};
 
 // 9. Transform all of the above into arrow functions below here
+
+// 1. ADD 
+const add = (x, y) => x + y;
