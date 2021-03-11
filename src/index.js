@@ -64,3 +64,6 @@ const oddOrEven = (x) => (x % 2 == 0) ? 'even' : 'odd';
 
 // 5. HOISTING 
 const hoisting = () => y = 2;
+
+// 6. MINVALUE 
+const minValue = (...numbers) => Math.min(...numbers);
