@@ -62,6 +62,15 @@ const multiply = (x, y) => x * y;
 // 3. ODDOREVEN 
 const oddOrEven = (x) => (x % 2 == 0) ? 'even' : 'odd';
 
+// 4. ARRAYGENERATOR
+const arrayGenerator = () => {
+  let numbers = [];
+  for(i=1; i<=100; i++) {
+    numbers.push(i);
+  }
+  return(numbers);
+};
+
 // 5. HOISTING 
 const hoisting = () => y = 2;
 
