@@ -4,7 +4,9 @@ exports.add = function add(x, y) {
 };
 
 // 2. Multiply function code goes here
-exports.multiply = function multiply() {};
+exports.multiply = function multiply(x, y) {
+  return x * y
+};
 
 // 3. OddOrEven function code goes here
 exports.oddOrEven = function oddOrEven() {};
