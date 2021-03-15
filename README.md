@@ -46,3 +46,14 @@ Your code will go into the **src/index.js** file
 8. Write a function that accepts a student array as first parameter, and a name as second parameter and return the student with that name. More details in **index.js**.
 
 9. Refactor all of the above functions into arrow functions.
+Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [John Gruber] writes on the [Markdown site][df1]
+
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
