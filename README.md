@@ -46,3 +46,19 @@ Your code will go into the **src/index.js** file
 8. Write a function that accepts a student array as first parameter, and a name as second parameter and return the student with that name. More details in **index.js**.
 
 9. Refactor all of the above functions into arrow functions.
+
+## Couple words..
+
+- It is hard for me to say anything about myself
+- If I could choose I would rather talk about my loved ones
+- Like Yoda, who is sitting right next to me now and begging to give him some apple
+- An always hungry podengo with unreasonably big ears.
+- He is the always favorite of my partner and me as well - and of course everybody who meets him. Nobody can resist him...
+
+My beloved partner is already sleeping so I have to be fast with my words.
+If I had to I would tell [these] things about me.
+
+> My family is my partner and our four-legged "terminitor".
+> Ex sausage addict in childhood, but almost fully vegan now.
+> I love playing, especially with Divinity, Unravel, Tac and Catan.
+> Animal rescuer with the most amazing team I could ever wished for <3
