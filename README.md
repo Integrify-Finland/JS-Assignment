@@ -46,3 +46,15 @@ Your code will go into the **src/index.js** file
 8. Write a function that accepts a student array as first parameter, and a name as second parameter and return the student with that name. More details in **index.js**.
 
 9. Refactor all of the above functions into arrow functions.
+## Need to know me
+
+- My name is Alfred F
+- I'm a Nigerian, lived in Finland for few years  and live in Canada
+- My favourite sport is soccer and my favourite team is Arsenal
+- I have a bachelors in Mathematics and presently studying to be a software developer
+- I'm passionate about development because it gives me the opportunity to create anything i think of. I love playing with numbers
+- Learning HTML, CSS, Javascript,  React and more languages will give me the opportuinity to create a career in Software development.
+- I'm also interested in Cloud as the amount of data been generated lately is huge
+- The software market in North America is also so huge 
+- I also love travelling. This gives me the opportuinity to learn about new culture, language, food and tradition.
+- I'm getting used to the cold weather here in Canada and Finland
