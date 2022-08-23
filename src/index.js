@@ -64,8 +64,23 @@ exports.doubleArray = function doubleArray() {
 // 8. We have an array of students object, each object will have a name property
 // write a function that accepts a student array as first parameter, and a name as second parameter
 // and return the student with that name
+let students = [{name: "smr", id: 007},{name: "sumrooz", id : 200 }];
+
 // Example of student array: const students = [{ name: 'a' }, { name: 'b' }];
-exports.findStudentName = function findStudentName() {};
+
+
+exports.findStudentName = function findStudentName(...students) {
+
+  
+ 	for(let i=0; i<students.length; i++){
+ 		
+    return students.name[i]
+    
+    }
+
+
+
+};
 
 // 9. Transform all of the above into arrow functions below here
 
