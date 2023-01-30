@@ -86,3 +86,24 @@ const hoisting = () => {
 // 6. Write a function that accepts unlimited amount of numbers as input
 // and return the smallest value
 const minValue = (inputNumberArr)  => "Minimum Number is: "+ inputNumberArr.reduce((a, b) => Math.max(a, b), -Infinity);
+
+// 7. Write a function that accepts an array of numbers as input
+// and return a new array with all numbers doubled
+// Ex: [1,2,3] => [2,4,6]
+const doubleArray = (inputNumberArr) => {
+  let doubledArr =[];
+  for(let i=0; i<inputNumberArr.length; i++){
+      doubledArray.push(inputNumberArr[i]*2);
+  }
+  return doubledArray;
+};
+
+// 8. We have an array of students object, each object will have a name property
+// write a function that accepts a student array as first parameter, and a name as second parameter
+// and return the student with that name
+// Example of student array: const students = [{ name: 'a' }, { name: 'b' }];
+const findStudentName = (stdObjArr, stdName) => {
+    
+  let stdIndex = stdObjArr.findIndex(item => item.name === stdName);
+  return stdObjArr[stdIndex].name;
+};
