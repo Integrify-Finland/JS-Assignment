@@ -40,7 +40,10 @@ exports.minValue = function minValue() {
 // 7. Write a function that accepts an array of numbers as input
 // and return a new array with all numbers doubled
 // Ex: [1,2,3] => [2,4,6]
-exports.doubleArray = function doubleArray() {};
+exports.doubleArray = function doubleArray(arr) {
+  const newArr = arr.map((a)=> a* 2);
+  return newArr
+};
 
 // 8. We have an array of students object, each object will have a name property
 // write a function that accepts a student array as first parameter, and a name as second parameter
