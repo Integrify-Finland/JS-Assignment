@@ -15,7 +15,13 @@ exports.oddOrEven = function oddOrEven(num) {
 
 // 4. Write a function that returns an array that includes number 1 to 100
 // Ex: [1,2,3,4, ..., 99, 100]
-exports.arrayGenerator = function arrayGenerator() {};
+exports.arrayGenerator = function arrayGenerator() {
+  const arr= [];
+  for (i = 0; i<100; i++ ) {
+   arr[i] = i + 1; 
+  }
+  return arr;
+};
 
 // 5. Fix this function. We want to see 2 in the console instead of undefined
 exports.hoisting = function hoisting() {
