@@ -58,3 +58,45 @@ exports.findStudentName = function findStudentName({student, name}) {
 };
 
 // 9. Transform all of the above into arrow functions below here
+
+const add = (a,b) =>  a+b;
+const multiply = (a,b) => a*b;
+const oddOrEven = (num)=> {
+  if (num % 2 != 0 ){
+    return 'odd'
+  }else{
+    return 'even'
+  }
+};
+
+const arrayGenerator =() => {
+  const arr= [];
+  for (i = 0; i<100; i++ ) {
+   arr[i] = i + 1; 
+  }
+  return arr;
+};
+
+const hoisting =() =>{
+  let y = 2;
+  console.log(y); 
+};
+
+const minValue =()=> {
+  const numArr = [...arguments]
+  numArr.sort(function(a,b){return a-b});
+  return numArr[0]
+};
+
+const doubleArray =(arr) => {
+  const newArr = arr.map((a)=> a* 2);
+  return newArr
+};
+
+const findStudentName =({student, name})=> {
+  return  student.find((a)=>{
+    if (a== name) {
+      return student
+    }
+  })
+};
