@@ -25,13 +25,17 @@ exports.arrayGenerator = function arrayGenerator() {
 
 // 5. Fix this function. We want to see 2 in the console instead of undefined
 exports.hoisting = function hoisting() {
-  console.log(y); // undefined
   let y = 2;
+  console.log(y); // now defined
 };
 
 // 6. Write a function that accepts unlimited amount of numbers as input
 // and return the smallest value
-exports.minValue = function minValue() {};
+exports.minValue = function minValue() {
+  const numArr = [...arguments]
+  numArr.sort(function(a,b){return a-b});
+  return numArr[0]
+};
 
 // 7. Write a function that accepts an array of numbers as input
 // and return a new array with all numbers doubled
