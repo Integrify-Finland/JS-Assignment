@@ -50,7 +50,7 @@ exports.doubleArray = function doubleArray(arr) {
 // and return the student with that name
 // Example of student array: const students = [{ name: 'a' }, { name: 'b' }];
 exports.findStudentName = function findStudentName(student, name) {
-  return student.find(a => a.name == name)
+  return student.filter(elem => elem.name === name)
 };
 
 // 9. Transform all of the above into arrow functions below here
@@ -89,7 +89,7 @@ const doubleArray =(arr) => {
   return newArr
 };
 
-const findStudentName =(student, name)=> {
-  return  student.find( a =>  a.name == name )
+ const findStudentName =(student, name)=> {
+  return  student.filter( a =>  a.name === name )
 } 
-    
+  
