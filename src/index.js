@@ -1,11 +1,17 @@
 // 1. Add function code goes here
-exports.add = function add() {};
+exports.add = function add(a,b) { return a+b};
 
 // 2. Multiply function code goes here
-exports.multiply = function multiply() {};
+exports.multiply = function multiply(a,b) {return a*b};
 
 // 3. OddOrEven function code goes here
-exports.oddOrEven = function oddOrEven() {};
+exports.oddOrEven = function oddOrEven(num) {
+  if (num % 2 != 0 ){
+    return 'odd'
+  }else{
+    return 'even'
+  }
+};
 
 // 4. Write a function that returns an array that includes number 1 to 100
 // Ex: [1,2,3,4, ..., 99, 100]
